@@ -6,7 +6,7 @@ import TicketingRoutes from "../src/apps/ticketing/routes";
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    redirect: "test",
+    redirect: "dashboard",
     component: () => import("@/_metronic/layout/Layout.vue"),
     children: [
       {

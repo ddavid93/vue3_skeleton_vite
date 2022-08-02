@@ -3,11 +3,11 @@ import {RouteRecordRaw} from "vue-router";
 const routes: RouteRecordRaw = {
 	path: "/ticketing",
 	name: "ticketing",
-	redirect: "/tickets",
+	redirect: "/",
 	component: () => import("./Ticketing.vue"),
 	children: [
 		{
-			path: "/tickets",
+			path: "/",
 			name: "ticketing.tickets",
 			component: () => import("./views/Tickets/TicketList.vue"),
 		},

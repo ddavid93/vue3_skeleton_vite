@@ -57,7 +57,7 @@ export interface Footer {
   width: "fixed" | "fluid";
 }
 
-export interface LayoutConfig {
+interface LayoutConfig {
   themeName: string;
   themeVersion: string;
   demo: string;
