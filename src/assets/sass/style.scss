@@ -1,0 +1,23 @@
+//
+// Theme style
+//
+
+// Mode
+$mode: default;
+
+// Initialize
+@import "init";
+
+// Components
+@import "./core/components/components";
+@import "components/components";
+
+// Layout
+@import "layout/layout";
+@import "./core/layout/docs/layout";
+
+.disabled-div {
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: default;
+}
