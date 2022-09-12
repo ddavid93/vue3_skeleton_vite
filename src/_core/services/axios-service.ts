@@ -11,7 +11,7 @@ export class AxiosService implements IAxios {
         baseURL: import.meta.env.VITE_APP_API_BACKEND,
         headers: {
           Accept: "application/x.yanovis.cloud.v1+json",
-          Authorization: `Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InN0YW5kYXJkIiwia3R5IjoiUlNBIn0.eyJpc3MiOiJ5YW5vdmlzLmNvbSIsImlhdCI6MTY1OTQzMDYzNSwiZXhwIjoxNjU5NDM2MDM1LCJuYmYiOjE2NTk0MzA2MzUsImp0aSI6IlBxa0RscDFaemN5SlA1d3MiLCJzdWIiOjMwMzUsInBydiI6IjM5YzFkODUxOWNiYTEyZjI4NTNiZDIzNDRlNjdkOTFiNmNhMzIyNTciLCJhdWQiOjI2MywiYXV0aF9wcm8iOiJsb2NhbCIsImF1dGhfc3ViIjozMDM1fQ.oh6axgX5BdMD6ugnnKxye08PU-XdJHPPdwv6MP7e-uqbl8OwojKVBBW3LtF4VU6XmQH6mN6CCqmWPsYXoLrZ5RsD_FLBmH7NklES_BiPsvsnOYiZV1MXjZCNMkaqA33msseFrEZ3a2jgeVy4s7mddki4mtnOd2wmjweKaEE_AzOLpTxjrMWLC-fRKU02lif1-RFvf5UM720WmvuVtUPpUC7PrDGl2nRwbkJcBtVNRhZi5YntdLUGtmoyC8n0Sc_cS9teLJpDgrg6enWz7l7su2xLxXVvb7eNYtNU2hg0z3XSqbqtnW8JCo0f9rBRKDTcnzga5V6A4AE-Lsfx8IN0TQ`
+          Authorization: `Bearer `
         }
       });
     }
